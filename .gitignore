@@ -1,0 +1,71 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+env/
+ENV/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Logs & Runtime Files
+*.log
+logs/
+flask_out.log
+flask_err.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Confirmed Unused Legacy Frontend Components (preserved locally, excluded from Git)
+frontend/src/components/ClaimAnalysis.jsx
+frontend/src/components/ClaimPredictor.jsx
+frontend/src/components/DashboardOverview.jsx
+frontend/src/components/DatasetExplorer.jsx
+frontend/src/components/EDAVisualizer.jsx
+frontend/src/components/FeatureSelectionView.jsx
+frontend/src/components/ModelLeaderboard.jsx
+frontend/src/components/Navbar.jsx
+frontend/src/components/PreprocessingAudit.jsx
+frontend/src/components/ProjectReport.jsx
+frontend/src/components/RiskIntelligence.jsx
+
+# Unused Legacy Model Metadata Artifact (preserved locally, excluded from Git)
+backend/models/model_metadata.joblib
+
+
